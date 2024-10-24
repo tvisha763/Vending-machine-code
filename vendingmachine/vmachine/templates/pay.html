@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Pay</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+New">
+    <style>
+        body {
+            font-family: "Courier New", sans-serif;
+            font-weight: 2000;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 style="margin-top: 120px;">Pay Down Below</h1>
+        <center><img src="{% static '/assets/down.png' %}" style="height: 300px; width: 300px;"></center>
+        <br>
+        <br>
+        {% for message in messages %}
+            <div style="width: 500px;" class="alert alert-danger">
+                <a href="#" data-dismiss="alert" class="close"x></a>
+                {{ message }}
+            </div>
+        {% endfor %}
+        <a class="btn btn-primary" href="{% url 'paid' %}">Paid</a>   
+    </center>
+</body>
+</html>

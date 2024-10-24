@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correct</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+New">
+    <style>
+        body {
+            font-family: "Courier New", sans-serif;
+            font-weight: 2000;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        setTimeout(function() {
+            window.location.href = "{% url 'pick_snack' %}"; // Replace with your target URL
+        }, 5
+        00); // 30 seconds in milliseconds
+    </script>
+    <center>
+        <br>
+        <br>
+        <h1>Wrong!</h1>
+        <img src="{% static '/assets/x-no-bg.png' %}" alt="">
+    </center>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    '{"question": "Solve for x: 5x + 3 = 18", "choices": ["2", "3", "5", "4"], "correct_choice": "3"}', 
+    '{"question": "Simplify: 3x + 2x", "choices": ["2x", "5x", "6x", "1x"], "correct_choice": "5x"}', 
+    '{"question": "Solve for y: 2y - 5 = 9", "choices": ["2", "5", "6", "7"],"correct_choice": "7"}', 
+    '{"question": "What is the solution to the equation: 4x = 24", "choices": ["6", "8", "10", "4"], "correct_choice": "6"}', 
+    '{"question": "Factor: x^2 + 5x + 6", "choices": ["(x + 2)(x - 3)", "(x + 2)(x + 3)", "(x - 2)(x + 3)", "(x - 2)(x - 3)"], "correct_choice": "(x + 2)(x + 3)"}',
+    '{"question": "Evaluate: 3^2 + 4^2", "choices": ["20", "21", "25", "30"], "correct_choice": "25"}',
+    '{"question": "Solve for x: x + 7 = 15", "choices": ["8", "7", "6", "5"], "correct_choice": "8"}',
+    '{"question": "Simplify: 2(x + 3)", "choices": ["2x + 1", "2x + 5", "2x + 6", "2x + 9"], "correct_choice": "2x + 6"}',
+    '{"question": "Find the value of x in the equation: 3x - 4 = 2", "choices": ["1", "2", "2 1/3", "3"], "correct_choice": "2 1/3"}',
+    '{"question": "Solve for y: y/3 = 4", "choices": ["6", "8", "9", "12"], "correct_choice": "12"}',
+    '{"question": "What is the slope of the line represented by the equation y = 2x + 3?", "choices": ["3", "2", "1", "0"], "correct_choice": "2"}',
+    '{"question": "Solve for x: 2x + 5 = 15", "choices": ["2", "4", "5", "7"], "correct_choice": "5"}',
+    '{"question": "Simplify: 6x - 2x", "choices": ["4x", "3x", "4x", "8x"], "correct_choice": "4x"}',
+    '{"question": "Which of the following is a solution to the equation x^2 = 16?", "choices": ["8", "-8", "4", "2"], "correct_choice": "4"}',
+    '{"question": "Factor: 2x + 6", "choices": ["2(x + 3)", "x + 6", "2x + 3", "2(x - 3)"], "correct_choice": "2(x + 3)"}',
+    '{"question": "Solve for x: 4x - 2 = 14", "choices": ["2", "4", "5", "4 1/2"], "correct_choice": "4 1/2"}',
+    '{"question": "Which expression is equivalent to 5(x - 2)?", "choices": ["5x - 1", "5x + 10", "5x - 10", "x - 10"], "correct_choice": "5x - 10"}',
+    '{"question": "Solve for y: 3y + 2 = 11", "choices": ["3", "4", "5", "6"], "correct_choice": "3"}',
+    '{"question": "Simplify: (x + 2)(x + 3)", "choices": ["x^2 + 5x + 6", "x^2 + 6x + 5", "x^2 - x + 5", "x^2 - 5x + 6"], "correct_choice": "x^2 + 5x + 6"}',
+    '{"question": "Solve for x: x/2 + 3 = 7", "choices": ["4", "7", "8", "5"], "correct_choice": "8"}'
+]
