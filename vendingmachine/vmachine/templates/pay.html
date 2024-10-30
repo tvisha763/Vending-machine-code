@@ -17,8 +17,8 @@
 </head>
 <body>
     <center>
-        <h1 style="margin-top: 120px;">Pay Down Below</h1>
-        <center><img src="{% static '/assets/down.png' %}" style="height: 300px; width: 300px;"></center>
+        <h1 style="margin-top: 120px;">Click the pay button and then scan your card on the card reader to the left</h1>
+        <center><img src="{% static '/assets/down.png' %}" style="height: 300px; width: 300px; transform: rotate(90deg);"></center>
         <br>
         <br>
         {% for message in messages %}
@@ -27,7 +27,7 @@
                 {{ message }}
             </div>
         {% endfor %}
-        <a class="btn btn-primary" href="{% url 'paid' %}">Paid</a>   
+        <a class="btn btn-primary" href="{% url 'paid' %}">Pay</a>   
     </center>
 </body>
 </html>
