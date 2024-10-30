@@ -78,10 +78,10 @@ def buy(request):
     return redirect('pay')
 
 def pay(request):
-    read.pay()
     return render(request, 'pay.html')
 
 def paid(request):
+    read.pay()
     if getPaid():
         return redirect('ask_math')
     else:
