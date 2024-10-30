@@ -26,11 +26,11 @@
                 <div class="card" style="width: 18rem;">
                 <center><img class="card-img-top" src="{% static '/assets/kitkat.jpg' %}" style="height: 100px; width: 160px;" alt="Card image cap"></center>
                     <div class="card-body">
-                      <h5 class="card-title">Kit Kat    $2</h5>
+                      <h5 class="card-title">Kit Kat    $1</h5>
                       <form action="{% url 'buy' %}" method="POST">
                         {% csrf_token %}
                         <input type="hidden" value="kitkat" name="snack" id="snack">
-                        <input type="hidden" value="2" name="price" id="price">
+                        <input type="hidden" value="1" name="price" id="price">
                         <button class="btn btn-primary">Buy</button>
                       </form>
                       
@@ -42,11 +42,11 @@
             <center><div class="card" style="width: 18rem;">
             <center><img class="card-img-top" src="{% static '/assets/M&M.jpg' %}" style="height: 120px; width: 160px;" alt="Card image cap"></center>
                     <div class="card-body">
-                      <h5 class="card-title">M&M    $2</h5>
+                      <h5 class="card-title">M&M    $1</h5>
                       <form action="{% url 'buy' %}" method="POST">
                         {% csrf_token %}
                         <input type="hidden" value="m&m" name="snack" id="snack">
-                        <input type="hidden" value="2" name="price" id="price">
+                        <input type="hidden" value="1" name="price" id="price">
                         <button class="btn btn-primary">Buy</button>
                       </form>
                     </div>
@@ -58,11 +58,11 @@
             <center><div class="card" style="width: 18rem;">
             <center><img class="card-img-top" src="{% static '/assets/Lays.jpg' %}" style="height: 120px; width: 160px;" alt="Card image cap"></center>
                     <div class="card-body">
-                      <h5 class="card-title">Lays    $3</h5>
+                      <h5 class="card-title">Skittles    $1</h5>
                       <form action="{% url 'buy' %}" method="POST">
                         {% csrf_token %}
                         <input type="hidden" value="lays" name="snack" id="snack">
-                        <input type="hidden" value="3" name="price" id="price">
+                        <input type="hidden" value="1" name="price" id="price">
                         <button class="btn btn-primary">Buy</button>
                       </form>
                     </div>
@@ -72,11 +72,11 @@
             <center><div class="card" style="width: 18rem;">
             <center><img class="card-img-top" src="{% static '/assets/Doritos.jpeg' %}" style="height: 140px; width: 160px;" alt="Card image cap"></center>
                     <div class="card-body">
-                      <h5 class="card-title">Doritos    $3</h5>
+                      <h5 class="card-title">Snickers    $1</h5>
                       <form action="{% url 'buy' %}" method="POST">
                         {% csrf_token %}
                         <input type="hidden" value="doritos" name="snack" id="snack">
-                        <input type="hidden" value="3" name="price" id="price">
+                        <input type="hidden" value="1" name="price" id="price">
                         <button class="btn btn-primary">Buy</button>
                       </form>
                     </div>
